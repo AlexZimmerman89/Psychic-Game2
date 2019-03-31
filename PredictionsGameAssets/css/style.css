@@ -1,0 +1,98 @@
+body {
+    color: white;
+}
+
+video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background-size: cover; 
+}
+
+.container-fluid {
+    clear: both;
+}
+
+.jumbotron {
+    background-color: transparent;
+    font-family: 'Bungee Inline', cursive;
+}
+
+#jumbo {
+    color: #70C9C7;
+    text-align:center;
+    background-size:cover;
+    background-position:center;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    margin-bottom: 3px;
+}
+
+h2 {
+    font-size: 58px;
+    margin-bottom: 20px;
+}
+
+#directions {
+    font-family: 'Anonymous Pro', monospace;
+    font-size: 32px;
+    color: #E95538;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-bottom: 20px;
+}
+
+#playAgain {
+    background-color: darkblue;
+    color: white;
+    padding: 15px;
+    border-radius: 44px;
+    border: solid 5px #70C9C7;
+    width: 180px;
+    text-align: center;
+}
+
+#playAgain:hover { 
+    background-color: purple;
+    cursor: pointer;
+}
+
+#playGame {
+    position: relative;
+    text-align: center;
+    top: 0;
+    bottom: 0;
+    height: 500px;
+}
+
+#crystalimg {
+    text-align: center;
+    position: relative;
+    height: 450px;
+}
+
+#game {
+    position: absolute;
+    margin-top: 45px;
+    top: 0px;
+    font-family: 'Anonymous Pro', monospace;
+    font-size: 24px;
+    text-align: center;
+    right: 0px;
+    left: 0px;
+}
+
+.audioControl {
+    opacity: .9;
+    left: 609.6;
+}
+
