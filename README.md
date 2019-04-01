@@ -1,6 +1,6 @@
 # Predictions-Game
 <strong>About</strong><br>
-This game runs in the browser, and features dynamically updated HTML and CSS powered by JavaScript code. Click here to play!
+This game runs in the browser, and features dynamically updated HTML and CSS powered by JavaScript code.
 
 <strong>Instructions</strong><br>
 The computer will randomly pick a letter from the alphabet (a-z|A-Z). The goal is for the user to guess that letter by pressing a key on the keyboard.
